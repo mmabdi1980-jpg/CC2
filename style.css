@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body,
+/*Main containter*/
+.container{
+    min-height: 100vh;
+    background-color:rgb(101, 100, 102);
+    }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    margin: 2em 5em;
+    }
+/*Header with back ground and shadow box*/
+header{
+        flex: 0.0;
+        background-color: rgb(212, 209, 209);/*removed border: 2px solid blueviolet; */
+        border-radius: 2em;
+        box-shadow: 0 4px 15px black;
+    
+          }
+/*Section containing left and right columns below layout*/
+section {
+        flex: 2;
+        gap:1em; 
+        border-radius: 2em;
+        display: flex;
+        
+    }
+/*Left column layout*/
+    .col-left{
+        flex: 1;
+        background-color: rgb(212, 209, 209); /*removed border: 2px solid red; */
+        border-radius: 2em;
+    }
+/*Right column layout*/
+    .col-right{
+        flex:1;        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(212, 209, 209);  /*removed border: 2px solid red; */
+         border-radius: 1em; 
+        
+          
+            
+        
+    }
+
+/*second container */        
+.second-containerr{
+    flex: 2;
+        gap:1em; 
+        border-radius: 2em;
+        display: flex;
+}
+/*Second left column*/
+.col-leftt{
+        flex: 1;
+        background-color: rgb(212, 209, 209);/*removed border: 2px solid red; */
+        border-radius: 2em;
+    }
+    /*second right column*/
+    .col-rightt{
+        flex: 1;
+        background-color: rgb(212, 209, 209); /*removed border: 2px solid red; */
+        border-radius: 2em;
+        
+    }
+/*First footer*/
+footer{
+        flex: 1;
+        border-radius: 2em;
+        background-color: rgb(212, 209, 209);
+        }
+/*second footer*/
+footer-2{
+        flex: 1;
+        border-radius: 2em;
+        background-color: rgb(212, 209, 209);
+        }
+/*Allowing the screen to behave after its been lessthan px*/
+@media(max-width:968px){
+          
+            section,
+               .container section{
+                flex-direction: column;}
+        .container{margin: 1em 2em;}           
+         }
+
+/* Logo Text in the header styling*/
+    header h1{
+        padding: 40px;
+        margin-bottom: 20px;
+        font-size: 90px;
+        color: #222121;
+        text-align: center;           
+    }
+
+/*Column left paragraph styling*/
+.col-left p {
+            padding: 40px;
+       font-size: 20px;
+        color: #222121;
+                            
+    }
+/*Column right styling*/
+  /*.col-right {padding:10px 0; Old code removed as .col-right already exsist }*/
+
+/*Column right paragraph styling*/
+  .col-right p {      
+                    width: 97%;   
+                    margin: 5px;
+    /*margin-top:2%; This line was removed 
+    margin-left: 3%; This line was removed /
+                /*border: 4px solid rgb(5, 4, 4);*/
+                display: flex;
+  justify-content: center;
+  align-items: center;
+   }
+/*Column left which has image*/
+.col-leftt img{
+     width: 60%;
+    height: 60%;
+    margin-top:5%;
+    margin-left: 25%;
+    border: 4px solid rgb(14, 12, 12);
+     }
+/*Column right paragraph*/
+ .col-rightt p {
+        flex: 1;
+        padding: 40px;
+        font-size: 20px;
+        color: #222121;
+       
+    }
+    
+/*Footer section */
+.footer1, .footer2, .footer3{ 
+    display: flex;
+    justify-content : left;
+    align-items: center;
+    color:rgb(3, 2, 0);
+    justify-content: space-around;
+}
+
+/*Second footer section*/
+.last-footer {
+    display: flex;
+     padding: 20px;
+       font-size: 16px;
+        color: #222121;
+        justify-content: center;
+}
+
+       
+
+            
+
+           
+            
+
+
+            
+ 
+    
+
+  
+
+  
+
+
+
+
+
+
