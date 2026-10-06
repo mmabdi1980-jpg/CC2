@@ -1,13 +1,10 @@
 # CC2
-Code Challenge 2
+## Flexbox / Grid Layout
 
-Responsive Design
+A **responsive multi-column layout** built using **CSS Flexbox or CSS Grid**.
 
-A responsive webpage uses CSS media queries to adapt its layout and content to different screen sizes.
+* **Multi-column design** — Organizes content into flexible columns.
+* **Responsive** — Adapts smoothly to different screen sizes.
+* **Flexbox/Grid** — Uses modern CSS layout techniques for clean alignment and spacing.
+* **Mobile-friendly** — Columns adjust or stack on smaller screens.
 
-Desktop: Displays a multi-column layout with horizontal navigation.
-Tablet: Adjusts the layout to fewer columns for better readability.
-Mobile: Uses a single-column layout and stacked navigation.
-Media Queries: Control layout changes based on screen width.
-
-This ensures the webpage is user-friendly and accessible across desktop, tablet, and mobile devices
