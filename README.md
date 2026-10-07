@@ -1,5 +1,5 @@
 # CC2
-## Flexbox / Grid Layout
+## Responsive Design
 
 A **responsive multi-column layout** built using **CSS Flexbox or CSS Grid**.
 
